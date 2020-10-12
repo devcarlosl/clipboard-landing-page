@@ -1,0 +1,18 @@
+.info-container-2 {
+  flex: 100%;
+  text-align: center;
+  div {
+    flex: 100%;
+    padding: 102px 0px;
+  }
+  h2 {
+    font-size: 32px;
+    color: $title;
+  }
+  p {
+    color: $text;
+    .responsive-mobile {
+      display: none;
+    }
+  }
+}

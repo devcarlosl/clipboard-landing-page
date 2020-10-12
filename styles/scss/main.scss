@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+  padding: 16px;
+
+  max-width: $desktop;
+}

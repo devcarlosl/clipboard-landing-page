@@ -1,0 +1,31 @@
+.info-icon-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  margin: auto;
+  padding: 40px 0px;
+
+  div {
+    text-align: center;
+    padding: 32px;
+    align-items: center;
+
+    img {
+      padding: 16px;
+      height: 64px;
+    }
+
+    h3 {
+      color: $title;
+      padding: 16px;
+    }
+
+    p{
+      font-size: 15px;
+      color: $text;
+    }
+    .responsive-mobile {
+      display: none;
+    }
+  }
+}

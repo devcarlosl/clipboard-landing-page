@@ -1,0 +1,23 @@
+.info-container-1 {
+  display: flex;
+  text-align: start;
+  justify-content: space-around;
+  img {
+    margin-left: -48px;
+  }
+  div {
+    padding: 32px;
+    padding-left: 48px;
+  }
+  h3 {
+    color: $title;
+    padding: 6px 0px;
+  }
+  .responsive-mobile {
+    display: none;
+  }
+  p {
+    color: $text;
+    font-size: 14px;
+  }
+}

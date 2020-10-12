@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background-image: url("../../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 1.6;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

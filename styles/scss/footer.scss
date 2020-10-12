@@ -1,0 +1,38 @@
+.footer {
+  flex: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: #f5f6f8;
+  padding: 24px 0px;
+  img {
+    width: 48px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    a {
+      font-size: 14px;
+      color: $title;
+      &:hover {
+        color: $primary;
+      }
+    }
+
+  }
+
+  figure {
+    display: flex;
+    i {
+      width: 32px;
+      padding: 8px;
+      color: $title;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
