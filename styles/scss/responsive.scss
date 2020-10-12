@@ -1,4 +1,7 @@
 @media (max-width: $mobile) {
+  body {
+    background-image: url("../../images/bg-header-mobile.png");
+  }
   .header-container {
     display: flex;
     align-items: center;
